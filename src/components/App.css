@@ -1,0 +1,18 @@
+.page {
+  box-sizing: border-box;
+  max-width: 1120px;
+  min-width: 320px;
+  margin: 0 auto;
+  font-family: Metropolis, Lato, "Helvetica Neue", Arial, sans-serif;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  display: flex;
+}
+
+.App {
+  background: #e5e5e5;
+}

@@ -1,0 +1,38 @@
+@font-face {
+  font-family: "Metropolis";
+
+  font-style: bold;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("./Metropolisbold.woff2") format("woff2"),
+    url("./Metropolisbold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: normal;
+
+  font-weight: 400;
+
+  font-display: swap;
+
+  src: url("./latoregular.woff2") format("woff2"),
+    url("./latoregular.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+
+  font-style: bold;
+
+  font-weight: 700;
+
+  font-display: swap;
+
+  src: url("./latobold.woff2") format("woff2"),
+    url("./latobold.woff") format("woff");
+}
