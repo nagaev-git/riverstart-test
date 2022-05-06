@@ -1,0 +1,6 @@
+.main {
+  display: flex;
+  max-width: 784px;
+  width: 100%;
+  padding: 0;
+}
