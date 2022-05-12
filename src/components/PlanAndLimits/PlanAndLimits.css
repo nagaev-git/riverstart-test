@@ -1,0 +1,9 @@
+.plan-limits {
+  display: flex;
+  flex-direction: column;
+  max-width: 784px;
+  width: 100%;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}

@@ -6,7 +6,9 @@ export default function Rate() {
     <section className="rate">
       <div className="rate__title">
         <h1 className="rate__title-name">Invoicing Start</h1>
-        <button type="button" className="rate__title-button">Change plan</button>
+        <button type="button" className="rate__title-button">
+          Change plan
+        </button>
       </div>
       <div className="rate__price">
         <h2 className="rate__price-value">
@@ -22,7 +24,9 @@ export default function Rate() {
         </button>
       </div>
       <div className="rate__switch">
-        <button type="button" className="rate__switch-button">Switch to annual plan</button>
+        <button type="button" className="rate__switch-button">
+          Switch to annual plan
+        </button>
         <h4 className="rate__switch-caption">and save 24,00 € a year</h4>
       </div>
     </section>

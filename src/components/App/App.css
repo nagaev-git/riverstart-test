@@ -1,20 +1,23 @@
 .page {
-  box-sizing: border-box;
+  display: flex;
+  gap: 32px;
   max-width: 1120px;
+  min-height: 100vh;
   min-width: 320px;
+  width: 100%;
   margin: 0 auto;
   padding: 47px 0 50px;
-  font-family: Metropolis, Lato, Helvetica Neue, Arial, sans-serif;
-  font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
-  display: flex;
+  text-rendering: optimizeLegibility;
+  font-style: normal;
+  font-family: Metropolis, Lato, Helvetica Neue, Arial, sans-serif;
 }
 
 .App {
   width: 100%;
-  background: #e5e5e5;
+  background-color: #e5e5e5;
 }

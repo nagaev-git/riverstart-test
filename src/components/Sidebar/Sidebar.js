@@ -53,7 +53,7 @@ export default function Sidebar() {
         <li>
           <NavLink
             exact
-            to="/e-invoicing"
+            to="/invoicing"
             activeClassName="sidebar__list-link_active"
             className="sidebar__list-link"
           >

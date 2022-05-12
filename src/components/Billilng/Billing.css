@@ -49,10 +49,10 @@
   display: grid;
   justify-content: center;
   grid-template-columns: repeat(auto-fill, 312px);
-  gap: 40px 40px;
+  gap: 40px;
   list-style: none;
   margin: 0;
-  padding: 0 60px 40px;
+  padding: 0 60px;
 }
 
 .billing__item {
