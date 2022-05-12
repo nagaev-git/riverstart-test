@@ -9,11 +9,13 @@
 
 .rate-upgrade__title {
   display: flex;
-  padding: 40px 60px 20px;
+  align-items: center;
+  margin: 0 60px;
+  border-top: 1px solid rgba(34, 43, 85, 0.1);
+  padding: 39px 0 0;
 }
 
-.rate-upgrade__title-name {
-  font-family: Metropolis;
+.rate-upgrade__title_name {
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -21,11 +23,165 @@
   text-align: left;
   margin: 0;
 }
-.rate-upgrade__title-icon {
+
+.rate-upgrade__title_icon {
   width: 24px;
   height: 24px;
   object-fit: cover;
   padding: 0 0 0 8px;
 }
+
 .rate-upgrade__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #f5f8ff;
+  margin: 20px 60px 40px;
+  border-radius: 12px;
+}
+
+.rate-upgrade__info_advantages {
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  padding: 24px 40px;
+}
+
+.rate-upgrade__info_name {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #415de8;
+  margin: 0;
+}
+
+.rate-upgrade__info_list {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  list-style-image: url(../../images/rate_upgrade_union.svg);
+  margin: 0;
+  padding: 16px 0 0 24px;
+}
+
+.rate-upgrade__info_text {
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #222b55;
+  margin: 0;
+}
+
+.rate-upgrade__info_conditions {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 24px 40px;
+}
+
+.rate-upgrade__info_button_close {
+  width: 16px;
+  height: 16px;
+  border: none;
+  padding: 0;
+  background: url(../../images/rate_upgrade_close.svg);
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.rate-upgrade__info_button_close:hover {
+  opacity: 0.8;
+}
+
+.rate-upgrade__info_price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin: 0;
+  padding: 12px 0 0;
+  color: #222b55;
+}
+
+.rate-upgrade__info_price_size_small {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: right;
+  margin: 0;
+  color: #222b55;
+}
+
+.rate-upgrade__info_payment-date {
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0em;
+  text-align: right;
+  max-width: 162px;
+  margin: 0;
+  padding: 8px 0 0;
+  color: #7b829a;
+}
+
+.rate-upgrade__info_button {
+  display: flex;
+  gap: 8px;
+  padding: 25px 0 0;
+}
+
+.rate-upgrade__info_button_upgrade {
+  border: none;
+  padding: 0;
+  height: 32px;
+  width: 85px;
+  border-radius: 8px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  background: #ff5762;
+  color: #ffffff;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.rate-upgrade__info_button_upgrade:hover {
+  opacity: 0.8;
+}
+
+.rate-upgrade__info_button_compare {
+  height: 32px;
+  width: 124px;
+  border-radius: 8px;
+  font-family: Lato;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #415de8;
+  background: rgba(65, 93, 232, 0.12);
+  border: none;
+  padding: 0;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.rate-upgrade__info_button_compare:hover {
+  opacity: 0.8;
+}
+
+.rate-upgrade__info_button_invisible {
+  display: none;
 }

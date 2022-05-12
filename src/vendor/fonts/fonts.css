@@ -27,6 +27,19 @@
 @font-face {
   font-family: "Lato";
 
+  font-style: semibold;
+
+  font-weight: 600;
+
+  font-display: swap;
+
+  src: url("./latosemibold.woff2") format("woff2"),
+    url("./latosemibold.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato";
+
   font-style: bold;
 
   font-weight: 700;
