@@ -1,0 +1,31 @@
+.rate-upgrade {
+  display: flex;
+  flex-direction: column;
+  max-width: 784px;
+  width: 100%;
+  border-radius: 0 0 16px 16px;
+  background-color: #ffffff;
+}
+
+.rate-upgrade__title {
+  display: flex;
+  padding: 40px 60px 20px;
+}
+
+.rate-upgrade__title-name {
+  font-family: Metropolis;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin: 0;
+}
+.rate-upgrade__title-icon {
+  width: 24px;
+  height: 24px;
+  object-fit: cover;
+  padding: 0 0 0 8px;
+}
+.rate-upgrade__info {
+}
