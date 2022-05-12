@@ -154,4 +154,9 @@
   color: #7b829a;
   cursor: pointer;
   text-decoration: underline;
+  transition: opacity 0.3s ease;
+}
+
+.billing__item_descriptions-link:hover {
+  opacity: 0.8;
 }
