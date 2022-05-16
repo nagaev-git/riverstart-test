@@ -118,16 +118,56 @@
 }
 
 .billing__item_progress {
-  width: 100%;
-  border: 0;
-  height: 8px;
-  border-radius: 4px;
   background: #ebecf0;
-  color: #415de8;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 312px;
+  height: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.billing__item_progress[value] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.billing__item_progress:not([value]) {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.billing__item_progress::-webkit-progress-bar {
+  background: #ebecf0;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 312px;
+  height: 8px;
+}
+
+.billing__item_progress::-webkit-progress-value {
+  background: #415de8;
+  border-radius: 4px;
+}
+
+.billing__item_progress::-moz-progress-value {
+  background: #415de8;
+  border-radius: 4px;
 }
 
 .billing__item_progress_full {
-  color: #ff5762;
+  background: #ff5762;
+}
+
+.billing__item_progress_full::-webkit-progress-value {
+  background: #ff5762;
+}
+
+.billing__item_progress_full::-moz-progress-value {
+  background: #ff5762;
 }
 
 .billing__item_descriptions {
