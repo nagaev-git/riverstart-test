@@ -2,17 +2,28 @@ import React from "react";
 import "./Rate.css";
 
 export default function Rate() {
+  const [priceValue, setPriceValue] = React.useState("6,99");
+
+  const handleChangePlanClick = () => {
+    setPriceValue((Math.random() * 100).toFixed(2));
+  };
+
   return (
     <section className="rate">
       <div className="rate__title">
         <h1 className="rate__title-name">Invoicing Start</h1>
-        <button type="button" className="rate__title-button">
+        <button
+          onClick={handleChangePlanClick}
+          type="button"
+          className="rate__title-button"
+        >
           Change plan
         </button>
       </div>
       <div className="rate__price">
         <h2 className="rate__price-value">
-          6,99 € <span className="rate__price-value_color-gray">/mo</span>
+          {priceValue} €{" "}
+          <span className="rate__price-value_color-gray">/mo</span>
         </h2>
       </div>
       <div className="rate__payment">

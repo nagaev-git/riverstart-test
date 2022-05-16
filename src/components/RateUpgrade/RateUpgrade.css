@@ -3,7 +3,9 @@
   flex-direction: column;
   max-width: 784px;
   width: 100%;
-  border-radius: 0 0 16px 16px;
+  margin-top: -24px;
+  padding-top: 24px;
+  border-radius: 16px;
   background-color: #ffffff;
 }
 
@@ -38,6 +40,10 @@
   background-color: #f5f8ff;
   margin: 20px 60px 40px;
   border-radius: 12px;
+}
+
+.rate-upgrade__info_invisible {
+  display: none;
 }
 
 .rate-upgrade__info_advantages {
